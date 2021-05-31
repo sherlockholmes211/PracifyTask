@@ -1,0 +1,50 @@
+.news-section-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.email-control{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.email-input{
+    width: 35vw;
+    height: 69px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px ;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    padding-left: 5vw;
+    color: #374b5c;
+    border: none;
+    background-color:rgba(252, 252, 252);
+    transition: all 0.5s 0s ease;
+    outline-width: 0;
+}
+
+.email-input:hover{
+    border: none;
+    background-color:rgba(237, 237, 237);
+    
+}
+.email-input:focus{
+    border: none;
+    background-color:rgba(237, 237, 237);
+}
+
+.email-subcribe{
+    width: 167px;
+    height: 69px;
+    padding: 21px 45.5px 24px;
+    border-radius: 30px;
+    background-color: #00dbd0;
+    border: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+

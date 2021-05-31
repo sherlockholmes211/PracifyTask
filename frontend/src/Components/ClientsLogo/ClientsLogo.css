@@ -1,0 +1,6 @@
+.items-control{
+    margin: 10vh 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
